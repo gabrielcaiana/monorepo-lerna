@@ -8,7 +8,11 @@
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
     "storybook": "start-storybook -p 5555",
     "coverage": "jest --coverage",
-    "unit": "jest"
+    "unit": "jest",
+    "release": "lerna publish",
+    "release:latest": "lerna publish --dist-tag latest",
+    "release:next": "lerna publish --dist-tag next",
+    "release:beta": "lerna publish --dist-tag beta"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",

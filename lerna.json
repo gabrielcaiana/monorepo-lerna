@@ -2,7 +2,23 @@
   "packages": [
     "packages/*"
   ],
+  "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "1.0.0"
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "graphType": "all",
+      "registry": "https://registry.npmjs.org/",
+      "message": "chore: publish",
+      "ignoreChanges": [
+        "**/config/**",
+        "**/.storybook/**",
+        "**/*.spec.js",
+        "**/*.spec.js.snap",
+        "**/*.stories.js",
+        "**/*.md"
+      ]
+    }
+  }
 }
