@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "onclass-monoreto-lerna-poc",
   "private": false,
   "workspaces": [
     "packages/*"
