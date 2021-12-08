@@ -1,6 +1,6 @@
 {
   "name": "react-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "module": "src/index.js",
   "dependencies": {
@@ -8,8 +8,8 @@
     "react-dom": "latest",
     "styled-components": "latest"
   },
-  "scripts": { 
-    "bootstrap": "lerna bootstrap --use-workspaces" 
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces"
   },
   "peerDependencies": {
     "react": "^16.0.0",
