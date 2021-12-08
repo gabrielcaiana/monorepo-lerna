@@ -1,5 +1,5 @@
 {
-  "name": "react-components",
+  "name": "onclass-react-components",
   "version": "1.0.4",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -16,5 +16,5 @@
     "react-dom": "^16.0.0",
     "styled-components": "^5.0.0"
   },
-  "gitHead": "1003c6a1e8d10f9758abb266e6bc4bbf331c4dff"
+  "gitHead": "beda6a7238a392739172ddaf9385bdfdee8406ca"
 }
